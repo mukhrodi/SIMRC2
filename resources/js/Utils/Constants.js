@@ -1,0 +1,22 @@
+export const BASE_URL = 'http://localhost:8000';
+export const BASE_API_URL = BASE_URL + '/api';
+export const LOGIN_URL = BASE_API_URL + '/login';
+export const REGISTER_URL = BASE_API_URL + '/register';
+export const UPDATE_USER_URL = BASE_API_URL + '/update';
+export const SIMULATION_GET_URL = BASE_API_URL + '/simulations';
+export const SIMULATION_ADD_URL = BASE_API_URL + '/simulations/add';
+export const SIMULATION_EDIT_URL = BASE_API_URL + '/simulations/edit';
+export const SIMULATION_DELETE_URL = BASE_API_URL + '/simulations/delete';
+export const COMPONENT_GET_URL = BASE_API_URL + '/components';
+export const COMPONENT_ADD_URL = BASE_API_URL + '/components/add';
+export const COMPONENT_EDIT_URL = BASE_API_URL + '/components/edit';
+export const COMPONENT_DELETE_URL = BASE_API_URL + '/components/delete';
+export const USER_GET_URL = BASE_API_URL + '/users';
+export const USER_ADD_URL = BASE_API_URL + '/users/add';
+export const USER_EDIT_URL = BASE_API_URL + '/users/edit';
+export const USER_DELETE_URL = BASE_API_URL + '/users/delete';
+
+export const USER_SIMULATION_GET_URL = BASE_API_URL + '/me/simulations';
+export const USER_SIMULATION_ADD_URL = BASE_API_URL + '/me/simulations/add';
+export const USER_SIMULATION_EDIT_URL = BASE_API_URL + '/me/simulations/edit';
+export const USER_SIMULATION_DELETE_URL = BASE_API_URL + '/me/simulations/delete';
